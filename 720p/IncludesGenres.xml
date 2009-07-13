@@ -1,0 +1,26 @@
+<includes>
+	<include name="MovieGenres">		
+		<control type="image">
+			<include>Window_OpenClose_Animation</include>
+			<posx>113</posx>
+			<posy>145</posy>
+			<width>433</width>
+			<height>430</height>
+		 	<fadetime>200</fadetime>
+			<texture>moviegenre/$INFO[ListItem.Label].jpg</texture>
+			<visible>Container.Content(Genres)</visible>
+		</control>
+	</include>
+	<include name="MusicGenres">
+		<control type="image">
+			<include>Window_OpenClose_Animation</include>
+			<posx>113</posx>
+			<posy>145</posy>
+			<width>433</width>
+			<height>430</height>
+			<fadetime>200</fadetime>
+			<texture>musicgenre/$INFO[ListItem.Label].jpg</texture>
+			<visible>Container.Content(Genres)</visible>
+		</control>
+	</include>
+</includes>
